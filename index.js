@@ -23,7 +23,11 @@ const questions = [{
 },
 {
   name: "Q4",
-
+  message: "What are the steps to install?"
+},
+{
+  name: "Q5",
+  message: "How do you use?",
 }
 ];
 
@@ -41,7 +45,12 @@ const questions = [{
 // AN OBJECT IS A BUNDLE OF RELATED INFORMATION, MODEL THE REAL WORLD, Describing
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  const content = `Project Title: ${data.title}; Project description: ${data.description}; License: ${data.license}`;
+  const content =
+`# ${data.title}
+## ${data.description}
+## ${data.license}
+## ${data.installation}
+## ${data.usage}`;
 
 fs.writeFile(fileName, content, err => 
 {
