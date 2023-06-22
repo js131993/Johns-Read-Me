@@ -71,6 +71,8 @@ function init() {
     readme.title = answers.Q1;
     readme.description = answers.Q2;
     readme.license = answers.Q3;
+    readme.installation = answers.Q4;
+    readme.usage = answers.Q5;
     writeToFile("./READMETest.md", readme);
 
   })
