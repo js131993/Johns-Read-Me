@@ -47,10 +47,14 @@ const questions = [{
 function writeToFile(fileName, data) {
   const content =
 `# ${data.title}
-## ${data.description}
-## ${data.license}
-## ${data.installation}
-## ${data.usage}`;
+### DESCRIPTION
+  *${data.description}
+###LICENSE
+  *${data.license}
+###INSTALLATION
+  *${data.installation}
+### USAGE
+  *${data.usage}`;
 
 fs.writeFile(fileName, content, err => 
 {
