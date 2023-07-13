@@ -48,13 +48,21 @@ function writeToFile(fileName, data) {
   const content =
 `# ${data.title}
 ### DESCRIPTION
-  *${data.description}
+  ${data.description}
+
+###Table Of Contents
+- [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+
 ###LICENSE
-  *${data.license}
+  ${data.license}
+
 ###INSTALLATION
-  *${data.installation}
+  ${data.installation}
+  
 ### USAGE
-  *${data.usage}`;
+  ${data.usage}`;
 
 fs.writeFile(fileName, content, err => 
 {
