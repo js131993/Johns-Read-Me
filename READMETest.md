@@ -18,4 +18,4 @@
 
   ### VIDEO
 
-  [EXAMPLE VIDEO](#https://drive.google.com/file/d/1Kqg0OKb9WilRnbfCVzlDpLrOotjaWEPZ/view?usp=sharing)
+  [EXAMPLE VIDEO](https://drive.google.com/file/d/1Kqg0OKb9WilRnbfCVzlDpLrOotjaWEPZ/view?usp=sharing)
